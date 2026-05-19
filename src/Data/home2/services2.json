@@ -1,0 +1,52 @@
+[
+  {
+    "icon": "/assets/img/icons/service2-icon2.png",
+    "title": "Website Design in HTML CSS JS",
+    "desc": "Responsive static and dynamic websites built purely with modern HTML, CSS, and JS.",   
+    "btnLink": "/service/service-details",
+    "addClass": "servcie2-box"
+  },
+  {
+    "icon": "/assets/img/icons/service2-icon2.png",
+    "title": "React Websites",
+    "desc": "React frontend, modern UI, responsive layout, advanced animation, and fast loading.",   
+    "btnLink": "/service/service-details",
+    "addClass": "servcie2-box"
+  },
+  {
+    "icon": "/assets/img/icons/service2-icon3.png",
+    "title": "Business Websites",
+    "desc": "React + Backend integration, admin panel, database, and dynamic content.",   
+    "btnLink": "/service/service-details",
+    "addClass": "servcie2-box active"
+  },
+  {
+    "icon": "/assets/img/icons/service2-icon1.png",
+    "title": "E-Commerce Solutions",
+    "desc": "Product listing, cart, payment integration, and seamless user experience.",   
+    "btnLink": "/service/service-details",
+    "addClass": "servcie2-box"
+  },
+  {
+    "icon": "/assets/img/icons/service2-icon5.png",
+    "title": "Graphic Design",
+    "desc": "Professional logos, social media posts, brochures, flyers, and creative branding.",   
+    "btnLink": "/service/service-details",
+    "addClass": "servcie2-box"
+  },
+  {
+    "icon": "/assets/img/icons/service2-icon4.png",
+    "title": "Automation Solutions",
+    "desc": "Business-friendly workflows, client automations, WhatsApp/email updates, and integrations.",   
+    "btnLink": "/service/service-details",
+    "addClass": "servcie2-box"
+  },
+  {
+    "icon": "/assets/img/icons/service2-icon6.png",
+    "title": "Website Redesign",
+    "desc": "Redesign old websites into modern UI with premium graphics and optimized UX.",   
+    "btnLink": "/service/service-details",
+    "addClass": "servcie2-box"
+  }   
+]
+

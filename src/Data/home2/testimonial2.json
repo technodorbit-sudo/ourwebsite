@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Rajesh Sharma",
+    "rating": "(5.0)",
+    "desc": "I am very happy with the website created by Techno Dorbit. They understood exactly what my business needed and delivered a very professional design. The team is very supportive and always ready to help. Highly recommended!"
+  },
+  {
+    "title": "Priya Patel",
+    "rating": "(4.8)",
+    "desc": "We gave Techno Dorbit our company logo and branding work, and they did an amazing job. The designs were very creative and modern. Their communication was great throughout the process."
+  },
+  {
+     "title": "Amit Desai",
+     "rating": "(4.9)",
+    "desc": "Techno Dorbit developed a perfect e-commerce website for our store. The loading speed is fast and the payment integration works smoothly. We are seeing more customers now because of their great work."
+  },  
+  {
+    "title": "Sunil Kumar",
+    "rating": "(5.0)",
+    "desc": "The automation solutions provided by Techno Dorbit saved us so much time. They made our workflow very easy and efficient. I am very impressed by their technical knowledge and fast service."
+  },
+  {
+    "title": "Neha Singh",
+    "rating": "(4.7)",
+    "desc": "Great experience working with Techno Dorbit. They redesigned our old website into a very fresh and attractive layout. They completed the project on time and the result was simply beautiful."
+  },
+  {
+     "title": "Vikram Verma",
+     "rating": "(4.9)",
+    "desc": "I highly appreciate the dedication of the Techno Dorbit team. From the first meeting to the final delivery, they were highly professional. Our new React website runs perfectly on mobile and desktop."
+  }
+]
+
