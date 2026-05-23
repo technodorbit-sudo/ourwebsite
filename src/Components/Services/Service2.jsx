@@ -4,7 +4,7 @@ import SectionTitle from '../Common/SectionTitle';
 
 const Service2 = () => {
     return (
-        <div className="servcie2 tech-service-section pt100">
+        <div className="servcie2 tech-service-section-premium pt100">
           <div className="container">
             <div className="row">
               <div className="col-lg-8 m-auto text-center">
@@ -18,25 +18,30 @@ const Service2 = () => {
             </div>
 
             <div className="space30"></div>
-            <div className="tech-service-grid">
-              <div className="tech-service-hub" data-aos="zoom-in-up" data-aos-duration="700">
-                <span className="tech-service-hub-kicker">Digital Studio</span>
+            <div className="tech-service-grid-premium">
+              <div className="tech-service-hub-premium" data-aos="fade-up" data-aos-duration="700">
+                <span className="tech-service-hub-kicker-premium">Digital Studio</span>
                 <h3>Techno Dorbit</h3>
                 <p>Websites, branding, e-commerce and automation connected into one growth system.</p>
               </div>
             {data.map((item, i) => (
-              <div key={i} className="tech-service-cell" data-aos="zoom-in-up" data-aos-duration="700">
-                  <div className={`${item.addClass} tech-service-card`}>
-                    <span className="tech-service-count">0{i + 1}</span>
-                    <div className="icon">
-                      <img src={item.icon} alt="" />
+              <div key={i} className="tech-service-cell-premium" data-aos="fade-up" data-aos-duration={600 + i * 100}>
+                  <div className="tech-service-card-premium">
+                    <div className="service-premium-header">
+                      <span className="tech-service-count-premium">0{i + 1}</span>
+                      <div className="icon-premium">
+                        <img src={item.icon} alt={item.title} />
+                      </div>
                     </div>
-                    <Link to={item.btnLink} className="arrow"><i className="bi bi-arrow-right"></i></Link>
                     <div className="heading2">
                       <h4><Link to={item.btnLink}>{item.title}</Link></h4>
                       <div className="space16"></div>
                       <p>{item.desc}</p>
                     </div>
+                    <Link to={item.btnLink} className="premium-service-btn">
+                      <span className="btn-text">Explore</span>
+                      <span className="btn-icon"><i className="bi bi-arrow-right"></i></span>
+                    </Link>
                   </div>
               </div>
             ))}
@@ -45,8 +50,8 @@ const Service2 = () => {
 
             <div className="space40 tech-service-button-space"></div>
             <div className="row">
-              <div className="col-lg-12 text-center" data-aos="zoom-in-up" data-aos-duration="700">
-                <Link className="theme-btn2" to="/service">View All Services <span className="arrow1"><i className="bi bi-arrow-right"></i></span><span className="arrow2"><i className="bi bi-arrow-right"></i></span></Link>
+              <div className="col-lg-12 text-center" data-aos="fade-up" data-aos-duration="700">
+                <Link className="theme-btn-premium" to="/service">View All Services <span className="arrow1"><i className="bi bi-arrow-right"></i></span><span className="arrow2"><i className="bi bi-arrow-right"></i></span></Link>
               </div>
             </div>
 

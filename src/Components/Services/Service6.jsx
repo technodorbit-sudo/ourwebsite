@@ -19,6 +19,16 @@ const Service6 = () => {
         "I need automation",
     ];
 
+    const serviceFeatures = [
+        ["Responsive landing page", "SEO-ready markup", "Fast, modern UI"],
+        ["React SPA experience", "Component-based animation", "Mobile-first layout"],
+        ["Business workflow pages", "Admin-ready content", "Dynamic user journeys"],
+        ["E-commerce store setup", "Checkout & payment flow", "Product and cart management"],
+        ["Brand identity assets", "Marketing-ready visuals", "Consistent design system"],
+        ["Automation workflows", "Updates & notifications", "Third-party connection"],
+        ["Website refresh package", "Modern UX redesign", "Performance improvements"],
+    ];
+
     return (
         <div className="servcie2 service-page-sec premium-service-page">
             <div className="space100"></div>
@@ -46,32 +56,62 @@ const Service6 = () => {
 
           <div id="service-options" className="service-path-label">
             <span>Service Options</span>
+            <p className="service-path-description"></p>
           </div>
 
-          <div className="premium-service-grid">
-          {data.map((item, i) => (
-            <div key={i} className="premium-service-item" data-aos="zoom-in-up" data-aos-duration="700">
-                <div className="servcie2-box premium-service-card">
-                  <span className="premium-service-tag">{serviceMeta[i]?.tag}</span>
-                  <div className="icon">
-                    <img src={item.icon} alt="" />
-                  </div>
-                  <Link to={item.btnLink} className="arrow"><i className="bi bi-arrow-right"></i></Link>
-                  <div className="heading1">
-                    <h4><Link to={item.btnLink}>{item.title}</Link></h4>
-                    <div className="space16"></div>
-                    <p>{item.desc}</p>
-                    <div className="premium-service-result">
-                      <span>Best for</span>
-                      <strong>{serviceMeta[i]?.bestFor}</strong>
-                      <span>Result</span>
-                      <strong>{serviceMeta[i]?.result}</strong>
+          <div className="premium-service-grid-redesigned">
+            {data.map((item, i) => (
+              <div key={i} className={`premium-service-item-redesigned premium-service-item-${i + 1}`} data-aos="zoom-in-up" data-aos-duration="700">
+                <div className="servcie2-box premium-service-card-redesigned">
+                  <div className="service-card-header">
+                    <div className="service-icon-wrapper">
+                      <div className="icon-glow"></div>
+                      <div className="icon">
+                        <img src={item.icon} alt={item.title} />
+                      </div>
                     </div>
                   </div>
-                </div>
-            </div>
-            ))}
+                  
+                  <div className="service-card-content">
+                    <h4><Link to={item.btnLink}>{item.title}</Link></h4>
+                    <p>{item.desc}</p>
 
+                    <div className="service-card-features">
+                      <ul>
+                        {serviceFeatures[i]?.map((feature, idx) => (
+                          <li key={idx}>{feature}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    
+                    <div className="premium-service-result">
+                      <div className="result-item">
+                        <span className="result-label">Best for</span>
+                        <strong>{serviceMeta[i]?.bestFor}</strong>
+                      </div>
+                      <div className="result-item">
+                        <span className="result-label">Result</span>
+                        <strong>{serviceMeta[i]?.result}</strong>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="service-card-footer">
+                    <Link to={item.btnLink} className="service-arrow-btn">
+                      <span>Learn More</span>
+                      <i className="bi bi-arrow-right"></i>
+                    </Link>
+                  </div>
+
+                  <div className="card-overlay-effects">
+                    <div className="shine-effect"></div>
+                    <div className="particle particle-1"></div>
+                    <div className="particle particle-2"></div>
+                    <div className="particle particle-3"></div>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

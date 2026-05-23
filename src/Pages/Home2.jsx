@@ -37,7 +37,9 @@ const Home2 = () => {
                 title="Empower Your Business With Our Digital Solutions"
                 content="Techno Dorbit is a leading digital agency specializing in premium website development, comprehensive graphic design, and custom automation solutions. We bridge the gap between creative design and robust technical architecture to help businesses and brands thrive in the modern digital landscape. Our transparent approach and focus on high-quality, responsive delivery ensures your project is a resounding success."
             ></About2>
+
             <Service2></Service2>
+
             <Choose2></Choose2>
             <HowWork1></HowWork1>
             <Team1></Team1>
