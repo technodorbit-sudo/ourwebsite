@@ -50,10 +50,6 @@ const HeroBanner2 = ({ subTitle, title, featureList, badgeImage, globeImage, han
 
               <div className="tech-energy-arc tech-energy-arc-one" aria-hidden="true"></div>
               <div className="tech-energy-arc tech-energy-arc-two" aria-hidden="true"></div>
-
-              <div className="tech-hero-badge round-circle2">
-                <img src={badgeImage} alt="" />
-              </div>
             </div>
           </div>
 

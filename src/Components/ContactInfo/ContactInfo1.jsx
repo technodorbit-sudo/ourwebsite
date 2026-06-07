@@ -24,7 +24,7 @@ const ContactInfo1 = () => {
       ...formData,
       access_key: "8b9ec994-7e2a-4620-be25-217b9c1912a7",
       subject: `New Website Inquiry from ${formData.name}`,
-      from_name: "TechXen Website"
+      from_name: "Techno Dorbit Website"
     };
 
     try {
@@ -83,7 +83,7 @@ const ContactInfo1 = () => {
                 <div className="info-content">
                   <h5>Email Us</h5>
                   <a href="mailto:technodorbit@gmail.com">technodorbit@gmail.com</a>
-                  <a href="mailto:info@techxen.com">info@techxen.com</a>
+                  <a href="mailto:info@technodorbit.com">info@technodorbit.com</a>
                 </div>
               </div>
 
@@ -92,10 +92,31 @@ const ContactInfo1 = () => {
                   <i className="bi bi-telephone-inbound"></i>
                 </div>
                 <div className="info-content">
-                  <h5>Call Us</h5>
-                  <a href="tel:9687567294">+91 96875 67294</a>
-                  <a href="tel:6352376755">+91 63523 76755</a>
+                  <h5>Call & WhatsApp</h5>
+                  <a href="tel:9687567294" style={{ fontWeight: '600' }}>+91 96875 67294</a>
+                  <a href="https://wa.me/919687567294" target="_blank" rel="noopener noreferrer" className="whatsapp-direct-link">
+                    <i className="bi bi-whatsapp"></i> Chat on WhatsApp
+                  </a>
+                  <a href="tel:6352376755" className="mt-1" style={{ fontSize: '13px', opacity: 0.8 }}>Backup: +91 63523 76755</a>
                 </div>
+              </div>
+            </div>
+            
+            <div className="premium-social-connect" data-aos="fade-right" data-aos-duration="900">
+              <h5>Connect With Us</h5>
+              <div className="social-connect-buttons">
+                <a href="https://www.linkedin.com/in/techno-dorbit-undefined-6a91a1413" target="_blank" rel="noopener noreferrer" className="social-connect-btn linkedin">
+                  <i className="bi bi-linkedin"></i>
+                  <span>LinkedIn</span>
+                </a>
+                <a href="https://www.facebook.com/share/1DorrhRozQ/" target="_blank" rel="noopener noreferrer" className="social-connect-btn facebook">
+                  <i className="bi bi-facebook"></i>
+                  <span>Facebook</span>
+                </a>
+                <a href="https://www.instagram.com/technodorbit?igsh=YngxeWp5cXVsemV1" target="_blank" rel="noopener noreferrer" className="social-connect-btn instagram">
+                  <i className="bi bi-instagram"></i>
+                  <span>Instagram</span>
+                </a>
               </div>
             </div>
           </div>

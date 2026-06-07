@@ -301,3 +301,101 @@
     padding: 20px;
   }
 }
+
+/* WhatsApp Direct Link Styling */
+.whatsapp-direct-link {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  color: #25D366 !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-direct-link:hover {
+  color: #1ebd54 !important;
+  text-shadow: 0 0 10px rgba(37, 211, 102, 0.4);
+  transform: translateX(3px);
+}
+
+/* Premium Social Connect Section */
+.premium-social-connect {
+  margin-top: 40px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.premium-social-connect h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+.social-connect-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.social-connect-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 20px;
+  border-radius: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.social-connect-btn i {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.social-connect-btn:hover {
+  transform: translateX(8px);
+  color: #fff;
+}
+
+.social-connect-btn:hover i {
+  transform: scale(1.2);
+}
+
+.social-connect-btn.linkedin:hover {
+  background: rgba(0, 119, 181, 0.15);
+  border-color: rgba(0, 119, 181, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 119, 181, 0.25);
+}
+.social-connect-btn.linkedin i {
+  color: #0077B5;
+}
+
+.social-connect-btn.facebook:hover {
+  background: rgba(24, 119, 242, 0.15);
+  border-color: rgba(24, 119, 242, 0.4);
+  box-shadow: 0 4px 20px rgba(24, 119, 242, 0.25);
+}
+.social-connect-btn.facebook i {
+  color: #1877F2;
+}
+
+.social-connect-btn.instagram:hover {
+  background: rgba(225, 48, 108, 0.15);
+  border-color: rgba(225, 48, 108, 0.4);
+  box-shadow: 0 4px 20px rgba(225, 48, 108, 0.25);
+}
+.social-connect-btn.instagram i {
+  color: #E1306C;
+}

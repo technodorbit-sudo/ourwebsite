@@ -1,8 +1,14 @@
+import { useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
+import AOS from 'aos';
 import HeaderStyle2 from '../Components/Header/HeaderStyle2';
 import Footer2 from '../Components/Footer/Footer2';
 
 const Layout2 = () => {
+    useEffect(() => {
+        AOS.refresh();
+    }, []);
+
     return (
         <div className='comon-body tg-heading-subheading animation-style3'>
             <HeaderStyle2></HeaderStyle2>
