@@ -8,6 +8,7 @@ import AboutDark from "../Pages/AboutDark";
 import ServicePageDark from "../Pages/ServicePageDark";
 import ServiceDetailsCenterDark from "../Pages/ServiceDetailsCenterDark";
 import ContactPage from "../Pages/ContactPage";
+import OurProjects from "../Pages/OurProjects";
 import PrivacyPolicy from "../Pages/PrivacyPolicy";
 import TermsConditions from "../Pages/TermsConditions";
 
@@ -40,6 +41,10 @@ export const router = createBrowserRouter([
         {
           path: "contact",
           element:<ContactPage></ContactPage> ,
+        },
+        {
+          path: "projects",
+          element:<OurProjects></OurProjects> ,
         },
         {
           path: "privacy-policy",
