@@ -19,12 +19,12 @@ const projectList = [
 
 const OurProjects = () => {
   useEffect(() => {
-    const reveals = document.querySelectorAll('.reveal');
+    const reveals = document.querySelectorAll('.project-reveal');
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add('reveal-visible');
+            entry.target.classList.add('project-reveal-visible');
           }
         });
       },
@@ -42,7 +42,7 @@ const OurProjects = () => {
     <main className="project-page">
       <section className="project-hero section-padding">
         <div className="container">
-          <div className="project-hero-inner reveal fade-up">
+          <div className="project-hero-inner project-reveal fade-up">
             <span className="project-badge">Our Projects</span>
             <h1>Built for business growth, polished for real users.</h1>
             <p>
@@ -64,7 +64,7 @@ const OurProjects = () => {
             {projectList.map((project, index) => (
               <article
                 key={project.title}
-                className={`project-card reveal ${index % 2 === 0 ? 'slide-left' : 'slide-right'}`}
+                className={`project-card project-reveal ${index % 2 === 0 ? 'slide-left' : 'slide-right'}`}
               >
                 <div className="project-card-inner">
                   <div className="project-card-header">

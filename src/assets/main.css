@@ -580,12 +580,12 @@ body.body {
   border-radius: 999px;
   font-size: 0.9rem;
 }
-.reveal {
+.project-reveal {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
-.reveal-visible {
+.project-reveal-visible {
   opacity: 1;
   transform: translateY(0);
 }
@@ -598,9 +598,9 @@ body.body {
 .slide-right {
   transform: translateX(40px);
 }
-.reveal-visible.slide-left,
-.reveal-visible.slide-right,
-.reveal-visible.fade-up {
+.project-reveal-visible.slide-left,
+.project-reveal-visible.slide-right,
+.project-reveal-visible.fade-up {
   transform: translateX(0) translateY(0);
 }
 @media (max-width: 991px) {

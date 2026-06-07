@@ -2,6 +2,8 @@ import Slider from 'react-slick';
 import data from '../../Data/home2/testimonial2.json';
 import SectionTitle from '../Common/SectionTitle';
 
+const SlickSlider = Slider.default || Slider;
+
 const Testimonial2 = () => {
 
     const settings = {
@@ -51,7 +53,7 @@ const Testimonial2 = () => {
                     <div className="space60"></div>
                     <div className="row">
                     <div className="tes2-slider cs_slider_gap_10" data-aos="fade-up" data-aos-duration="700">
-                        <Slider {...settings}>
+                        <SlickSlider {...settings}>
                     {data.map((item, i) => (
                         <div key={i} className="single-slider">
                         <div className="icon">
@@ -76,7 +78,7 @@ const Testimonial2 = () => {
                         </div>
                         </div>
                         ))}
-                        </Slider>
+                        </SlickSlider>
 
 
                     </div>
