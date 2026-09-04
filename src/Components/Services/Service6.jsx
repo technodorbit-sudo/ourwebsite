@@ -3,13 +3,12 @@ import data from '../../Data/sercicePage.json';
 
 const Service6 = () => {
     const serviceMeta = [
-        { bestFor: "New business launch", result: "Clean, responsive web presence", tag: "Starter" },
-        { bestFor: "Modern animated website", result: "Fast React UI with premium feel", tag: "Popular" },
-        { bestFor: "Company operations", result: "Dynamic website with backend control", tag: "Scale" },
+      { bestFor: "Any business website", result: "A responsive web presence built around your goals", tag: "Web" },
         { bestFor: "Selling products online", result: "Store, cart and payment-ready flow", tag: "Commerce" },
         { bestFor: "Brand visibility", result: "Logo, creatives and marketing design", tag: "Creative" },
         { bestFor: "Saving manual work", result: "Automated updates and integrations", tag: "Smart" },
         { bestFor: "Old website upgrade", result: "Fresh UI, better UX and performance", tag: "Refresh" },
+      { bestFor: "Growing operations", result: "Connected workflows, reporting and business control", tag: "Enterprise" },
     ];
 
     const servicePaths = [
@@ -17,16 +16,16 @@ const Service6 = () => {
         "I need online sales",
         "I need brand design",
         "I need automation",
+      "I need custom business software",
     ];
 
     const serviceFeatures = [
-        ["Responsive landing page", "SEO-ready markup", "Fast, modern UI"],
-        ["React SPA experience", "Component-based animation", "Mobile-first layout"],
-        ["Business workflow pages", "Admin-ready content", "Dynamic user journeys"],
+      ["HTML, CSS, JS and React builds", "Backend, database and admin integration", "Responsive, fast and scalable UI"],
         ["E-commerce store setup", "Checkout & payment flow", "Product and cart management"],
         ["Brand identity assets", "Marketing-ready visuals", "Consistent design system"],
         ["Automation workflows", "Updates & notifications", "Third-party connection"],
         ["Website refresh package", "Modern UX redesign", "Performance improvements"],
+      ["Workflow-specific modules", "Reports, roles and permissions", "Integrations with existing tools"],
     ];
 
     return (
@@ -36,7 +35,7 @@ const Service6 = () => {
           <div className="premium-service-intro" data-aos="fade-up" data-aos-duration="700">
             <span>Service System</span>
             <h2>Premium digital services built as one connected growth engine</h2>
-            <p>Choose a focused service or combine web, design, commerce and automation into a complete digital workflow.</p>
+            <p>Choose a focused service or combine web, design, commerce, automation and business software into a complete digital workflow.</p>
           </div>
 
           <div className="service-decision-panel" data-aos="fade-up" data-aos-duration="800">

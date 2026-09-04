@@ -1,20 +1,8 @@
 [
   {
     "icon": "/assets/img/icons/service2-icon2.png",
-    "title": "Website Design in HTML CSS JS",
-    "desc": "Responsive static and dynamic websites built purely with modern HTML, CSS, and JS.",   
-    "btnLink": "/service/service-details"
-  },
-  {
-    "icon": "/assets/img/icons/service-page-icon2.png",
-    "title": "React Websites",
-    "desc": "React frontend, modern UI, responsive layout, advanced animation, and fast loading.",   
-    "btnLink": "/service/service-details"
-  },
-  {
-    "icon": "/assets/img/icons/service-page-icon3.png",
-    "title": "Business Websites",
-    "desc": "React + Backend integration, admin panel, database, and dynamic content.",   
+    "title": "Website Design & Development",
+    "desc": "Complete websites built around your needs, from responsive HTML, CSS and JS pages to React applications with backend integration, admin panels, databases and dynamic content.",
     "btnLink": "/service/service-details"
   },
   {
@@ -38,7 +26,13 @@
   {
     "icon": "/assets/img/icons/service-page-icon6.png",
     "title": "Website Redesign",
-    "desc": "Redesign old websites into modern UI with premium graphics and optimized UX.",   
+    "desc": "Redesign old websites into modern UI with premium graphics and optimized UX.",
+    "btnLink": "/service/service-details"
+  },
+  {
+    "icon": "/assets/img/icons/service-page-icon3.png",
+    "title": "ERP Systems & Custom Software",
+    "desc": "Custom ERP systems and business software designed around your workflows, teams, data and growth goals.",
     "btnLink": "/service/service-details"
   }   
 ]
