@@ -47,6 +47,13 @@
     "desc": "Redesign old websites into modern UI with premium graphics and optimized UX.",   
     "btnLink": "/service/service-details",
     "addClass": "servcie2-box"
+  },
+  {
+    "icon": "/assets/img/icons/service2-icon7.png",
+    "title": "3D Printing & Prototyping",
+    "desc": "Turn digital product designs into accurate physical models for testing, presentation, and product development.",
+    "btnLink": "/service/service-details",
+    "addClass": "servcie2-box"
   }   
 ]
 

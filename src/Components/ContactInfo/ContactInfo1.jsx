@@ -72,7 +72,7 @@ const ContactInfo1 = () => {
                 </div>
                 <div className="info-content">
                   <h5>Office Location</h5>
-                  <p>Gujarat, India<br/>Global Hub</p>
+                  <p>Vadodara, Gujarat, India<br/>Global Hub</p>
                 </div>
               </div>
 
@@ -83,7 +83,6 @@ const ContactInfo1 = () => {
                 <div className="info-content">
                   <h5>Email Us</h5>
                   <a href="mailto:technodorbit@gmail.com">technodorbit@gmail.com</a>
-                  <a href="mailto:info@technodorbit.com">info@technodorbit.com</a>
                 </div>
               </div>
 
