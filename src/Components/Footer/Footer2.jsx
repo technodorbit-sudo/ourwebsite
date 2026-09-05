@@ -29,10 +29,13 @@ const Footer2 = () => {
                             <h3>Service We Offer</h3>
 
                             <ul className="menu-list">
-                                <li><Link to="/service/service-details">Cloud Computing Solution</Link></li>
-                                 <li><Link to="/service/service-details">Cybersecurity & Compliance</Link></li>
-                                 <li><Link to="/service/service-details">Software Development</Link></li>
-                                 <li><Link to="/service/service-details">It Consulting & Support</Link></li>
+                                <li><Link to="/service">Website Design &amp; Development</Link></li>
+                                <li><Link to="/service">E-Commerce Solutions</Link></li>
+                                <li><Link to="/service">Graphic Design</Link></li>
+                                <li><Link to="/service">Automation Solutions</Link></li>
+                                <li><Link to="/service">Website Redesign</Link></li>
+                                <li><Link to="/service">ERP Systems &amp; Custom Software</Link></li>
+                                <li><Link to="/service">3D Printing &amp; Prototyping</Link></li>
                             </ul>
                        </div>
                   </div>
@@ -42,11 +45,12 @@ const Footer2 = () => {
                             <h3>Useful Links</h3>
 
                             <ul className="menu-list">
-                            <li><Link to="/about">About Us </Link></li>
-                                 <li><Link to="/service">Our Services</Link></li>
-                                 <li><Link to="/blog">Blog & News</Link></li>
-                                 <li><Link to="/project">Project</Link></li>
-                                 <li><Link to="/contact">Contact Us</Link></li>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/about">About Us</Link></li>
+                                <li><Link to="/service">Our Services</Link></li>
+                                <li><Link to="/contact">Contact Us</Link></li>
+                                <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+                                <li><Link to="/terms-conditions">Terms &amp; Conditions</Link></li>
                             </ul>
                        </div>
                   </div>

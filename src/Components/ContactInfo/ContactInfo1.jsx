@@ -122,7 +122,7 @@ const ContactInfo1 = () => {
           </div>
 
           <div className="col-lg-7" data-aos="fade-left" data-aos-duration="800">
-            <div className="premium-contact-form-container">
+            <div id="contact-form" className="premium-contact-form-container">
               <div className="form-glass-panel">
                 <h3>Send us a Message</h3>
                 <form onSubmit={handleSubmit} className="premium-contact-form">

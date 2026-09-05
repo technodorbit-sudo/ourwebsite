@@ -9,14 +9,16 @@ const Service6 = () => {
         { bestFor: "Saving manual work", result: "Automated updates and integrations", tag: "Smart" },
         { bestFor: "Old website upgrade", result: "Fresh UI, better UX and performance", tag: "Refresh" },
       { bestFor: "Growing operations", result: "Connected workflows, reporting and business control", tag: "Enterprise" },
+      { bestFor: "Digital product designs", result: "Physical prototypes ready to test and refine", tag: "Prototype" },
     ];
 
     const servicePaths = [
         "I need a website",
-        "I need online sales",
-        "I need brand design",
-        "I need automation",
+      "I need online sales",
+      "I need brand design",
+      "I need automation",
       "I need custom business software",
+      "I need a physical prototype",
     ];
 
     const serviceFeatures = [
@@ -24,8 +26,9 @@ const Service6 = () => {
         ["E-commerce store setup", "Checkout & payment flow", "Product and cart management"],
         ["Brand identity assets", "Marketing-ready visuals", "Consistent design system"],
         ["Automation workflows", "Updates & notifications", "Third-party connection"],
-        ["Website refresh package", "Modern UX redesign", "Performance improvements"],
+      ["Website refresh package", "Modern UX redesign", "Performance improvements"],
       ["Workflow-specific modules", "Reports, roles and permissions", "Integrations with existing tools"],
+      ["Digital model preparation", "Accurate physical prototypes", "Material and finish guidance"],
     ];
 
     return (
@@ -96,7 +99,7 @@ const Service6 = () => {
                   </div>
                   
                   <div className="service-card-footer">
-                    <Link to={item.btnLink} className="service-arrow-btn">
+                    <Link to="/contact#contact-form" className="service-arrow-btn">
                       <span>Learn More</span>
                       <i className="bi bi-arrow-right"></i>
                     </Link>

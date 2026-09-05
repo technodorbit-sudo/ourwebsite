@@ -34,6 +34,12 @@
     "title": "ERP Systems & Custom Software",
     "desc": "Custom ERP systems and business software designed around your workflows, teams, data and growth goals.",
     "btnLink": "/service/service-details"
+  },
+  {
+    "icon": "/assets/img/icons/service2-icon7.png",
+    "title": "3D Printing & Prototyping",
+    "desc": "Turn digital product designs into accurate physical models for testing, presentation, product development and small-batch production.",
+    "btnLink": "/service/service-details"
   }   
 ]
 
