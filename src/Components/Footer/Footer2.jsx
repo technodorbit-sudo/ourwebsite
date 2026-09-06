@@ -16,7 +16,7 @@ const Footer2 = () => {
                               <p>At Techno Dorbit, we are dedicated to delivering innovative technology, robust web applications, graphic design, and automation solutions tailored to meet the unique needs of businesses and brands.</p>
                             </div>
                             <ul className="social-icon">
-                                <li><a href="https://www.linkedin.com/in/techno-dorbit-undefined-6a91a1413" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/techno-dorbit/?viewAsMember=true" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a></li>
                                 <li><a href="https://www.facebook.com/share/1DorrhRozQ/" target="_blank" rel="noopener noreferrer"><i className="bi bi-facebook"></i></a></li>
                                 <li><a href="https://www.instagram.com/technodorbit?igsh=YngxeWp5cXVsemV1" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram"></i></a></li>
                                 <li><a href="https://wa.me/919687567294" target="_blank" rel="noopener noreferrer"><i className="bi bi-whatsapp"></i></a></li>

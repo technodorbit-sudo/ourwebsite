@@ -104,7 +104,7 @@ const ContactInfo1 = () => {
             <div className="premium-social-connect" data-aos="fade-right" data-aos-duration="900">
               <h5>Connect With Us</h5>
               <div className="social-connect-buttons">
-                <a href="https://www.linkedin.com/in/techno-dorbit-undefined-6a91a1413" target="_blank" rel="noopener noreferrer" className="social-connect-btn linkedin">
+                <a href="https://www.linkedin.com/company/techno-dorbit/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="social-connect-btn linkedin">
                   <i className="bi bi-linkedin"></i>
                   <span>LinkedIn</span>
                 </a>
