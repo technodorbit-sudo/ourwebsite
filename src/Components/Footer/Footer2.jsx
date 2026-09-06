@@ -87,15 +87,6 @@ const Footer2 = () => {
                               </div>
                             </div>
 
-                            <div className="contact-box">
-                              <div className="icon">
-                                <img src="/assets/img/icons/footer1-icon4.png" alt="" />
-                              </div>
-                              <div className="pera">
-                                <a href="https://technodorbit.com">www.technodorbit.com</a>
-                              </div>
-                            </div>
-
                        </div>
                   </div>
 
